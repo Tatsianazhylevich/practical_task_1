@@ -1,0 +1,100 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* =============CIRCLE================== */
+
+.circle {
+    width: 33.8%;
+    height: 33.8%;
+    margin: 0;
+    background: #ee210c;
+    border-radius: 50%;
+}
+
+.circle--topright {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.circle--topleft {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.circle--bottomright {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.circle--bottomleft {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+}
+/* =============SQUARE================== */
+
+.big-square {
+    position: absolute;
+    z-index: 5;
+    top: 16.4%;
+    left: 16.4%;
+    width: 65.9%;
+    height: 65.9%;
+    margin: 0;
+    background: #00a2ff;
+}
+
+.small-square {
+    position: absolute;
+    z-index: 10;
+    top: 32.8%;
+    left: 32.8%;
+    width: 33.8%;
+    height: 33.8%;
+    margin: 0;
+    background: #f7ba00;
+    border-radius: 25%;
+}
+
+/* ==============HOVER================= */
+
+.circle--topright:hover {
+    position: absolute;
+    z-index: 10;
+    background: blue;
+}
+
+.circle--topleft:hover {
+    position: absolute;
+    z-index: 10;
+    background: yellow;
+}
+
+.circle--bottomright:hover {
+    position: absolute;
+    z-index: 10;
+    background: greenyellow;
+}
+
+.circle--bottomleft:hover {
+    position: absolute;
+    z-index: 10;
+    background: violet;
+}
+
+.big-square:hover {
+    position: absolute;
+    z-index: 15;
+    background: turquoise;
+}
